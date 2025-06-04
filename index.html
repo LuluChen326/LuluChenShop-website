@@ -13,8 +13,8 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: #f8f9fa;
-            color: #333;
+            background: #faf8f5;
+            color: #5d4e37;
             line-height: 1.6;
         }
         
@@ -26,25 +26,25 @@
         
         /* Header */
         header {
-            background: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: #fff9f5;
+            box-shadow: 0 2px 15px rgba(139, 109, 83, 0.1);
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
-            border-bottom: 1px solid #e9ecef;
+            border-bottom: 1px solid #e8ddd4;
         }
         
         .header-top {
-            background: #212529;
-            color: #fff;
-            padding: 8px 0;
+            background: #8b6d53;
+            color: #fff9f5;
+            padding: 10px 0;
             font-size: 13px;
             text-align: center;
         }
         
         .header-main {
-            padding: 15px 0;
+            padding: 20px 0;
         }
         
         nav {
@@ -56,7 +56,7 @@
         .logo {
             font-size: 28px;
             font-weight: 700;
-            color: #e91e63;
+            color: #a0845c;
             text-decoration: none;
         }
         
@@ -71,14 +71,14 @@
             cursor: pointer;
             padding: 8px 0;
             font-weight: 500;
-            color: #333;
+            color: #5d4e37;
             border-bottom: 2px solid transparent;
             transition: all 0.3s ease;
         }
         
         .nav-item:hover, .nav-item.active {
-            color: #e91e63;
-            border-bottom-color: #e91e63;
+            color: #a0845c;
+            border-bottom-color: #a0845c;
         }
         
         .header-actions {
@@ -101,21 +101,21 @@
         
         .search-box input:focus {
             outline: none;
-            border-color: #e91e63;
+            border-color: #a0845c;
         }
         
         .cart-icon {
             position: relative;
             cursor: pointer;
             font-size: 20px;
-            color: #333;
+            color: #5d4e37;
         }
         
         .cart-badge {
             position: absolute;
             top: -8px;
             right: -8px;
-            background: #e91e63;
+            background: #a0845c;
             color: white;
             border-radius: 50%;
             width: 18px;
@@ -128,7 +128,7 @@
         
         /* Main Content */
         main {
-            margin-top: 120px;
+            margin-top: 140px;
             padding: 20px 0;
         }
         
@@ -142,29 +142,30 @@
         
         /* Hero Banner */
         .hero-banner {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: linear-gradient(135deg, #d4c4a8 0%, #c4b59a 50%, #b8a082 100%);
+            color: #fff9f5;
             padding: 60px 0;
             text-align: center;
             margin-bottom: 40px;
-            border-radius: 10px;
+            border-radius: 15px;
         }
         
         .hero-banner h1 {
             font-size: 48px;
             font-weight: 700;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(93, 78, 55, 0.3);
         }
         
         .hero-banner p {
             font-size: 20px;
             margin-bottom: 30px;
-            opacity: 0.9;
+            opacity: 0.95;
         }
         
         .btn-primary {
-            background: #e91e63;
-            color: white;
+            background: #a0845c;
+            color: #fff9f5;
             padding: 12px 30px;
             border: none;
             border-radius: 25px;
@@ -177,9 +178,9 @@
         }
         
         .btn-primary:hover {
-            background: #c2185b;
+            background: #8b6d53;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(233, 30, 99, 0.3);
+            box-shadow: 0 5px 15px rgba(160, 132, 92, 0.4);
         }
         
         /* Categories */
@@ -191,18 +192,18 @@
         }
         
         .category-card {
-            background: white;
-            border-radius: 10px;
+            background: #fff9f5;
+            border-radius: 15px;
             padding: 25px;
             text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 15px rgba(139, 109, 83, 0.1);
             transition: all 0.3s ease;
-            border: 1px solid #f0f0f0;
+            border: 1px solid #e8ddd4;
         }
         
         .category-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px rgba(139, 109, 83, 0.2);
         }
         
         .category-icon {
@@ -214,13 +215,13 @@
         .category-title {
             font-size: 18px;
             font-weight: 600;
-            color: #333;
+            color: #5d4e37;
             margin-bottom: 10px;
         }
         
         .category-desc {
             font-size: 14px;
-            color: #666;
+            color: #8b6d53;
         }
         
         /* Product Grid */
@@ -232,23 +233,23 @@
         }
         
         .product-card {
-            background: white;
-            border-radius: 10px;
+            background: #fff9f5;
+            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 15px rgba(139, 109, 83, 0.1);
             transition: all 0.3s ease;
-            border: 1px solid #f0f0f0;
+            border: 1px solid #e8ddd4;
         }
         
         .product-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px rgba(139, 109, 83, 0.2);
         }
         
         .product-image {
             width: 100%;
             height: 220px;
-            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            background: linear-gradient(45deg, #f5f0ea, #ede4d8);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -260,8 +261,8 @@
             position: absolute;
             top: 10px;
             left: 10px;
-            background: #e91e63;
-            color: white;
+            background: #a0845c;
+            color: #fff9f5;
             padding: 4px 12px;
             border-radius: 15px;
             font-size: 12px;
@@ -275,7 +276,7 @@
         .product-title {
             font-size: 16px;
             font-weight: 600;
-            color: #333;
+            color: #5d4e37;
             margin-bottom: 8px;
             line-height: 1.4;
         }
@@ -283,13 +284,13 @@
         .product-price {
             font-size: 18px;
             font-weight: 700;
-            color: #e91e63;
+            color: #a0845c;
             margin-bottom: 15px;
         }
         
         .product-price .original-price {
             font-size: 14px;
-            color: #999;
+            color: #9a8875;
             text-decoration: line-through;
             margin-left: 8px;
             font-weight: 400;
@@ -297,35 +298,35 @@
         
         .btn-add-cart {
             width: 100%;
-            background: #f8f9fa;
-            color: #333;
-            border: 1px solid #dee2e6;
+            background: #f5f0ea;
+            color: #5d4e37;
+            border: 1px solid #e8ddd4;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 8px;
             font-weight: 500;
             cursor: pointer;
             transition: all 0.3s ease;
         }
         
         .btn-add-cart:hover {
-            background: #e91e63;
-            color: white;
-            border-color: #e91e63;
+            background: #a0845c;
+            color: #fff9f5;
+            border-color: #a0845c;
         }
         
         /* Order Form */
         .order-section {
-            background: white;
+            background: #fff9f5;
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(139, 109, 83, 0.1);
             margin: 40px 0;
         }
         
         .order-section h2 {
             font-size: 28px;
             font-weight: 700;
-            color: #333;
+            color: #5d4e37;
             margin-bottom: 30px;
             text-align: center;
         }
@@ -345,7 +346,7 @@
             display: block;
             margin-bottom: 8px;
             font-weight: 600;
-            color: #333;
+            color: #5d4e37;
         }
         
         .form-group input,
@@ -353,25 +354,27 @@
         .form-group textarea {
             width: 100%;
             padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            border: 1px solid #e8ddd4;
+            border-radius: 8px;
             font-size: 14px;
             transition: border-color 0.3s ease;
+            background: #faf8f5;
         }
         
         .form-group input:focus,
         .form-group select:focus,
         .form-group textarea:focus {
             outline: none;
-            border-color: #e91e63;
+            border-color: #a0845c;
+            background: #fff9f5;
         }
         
         /* About Section */
         .about-section {
-            background: white;
+            background: #fff9f5;
             padding: 50px 40px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(139, 109, 83, 0.1);
             margin: 40px 0;
         }
         
@@ -383,7 +386,7 @@
         .about-section h2 {
             font-size: 32px;
             font-weight: 700;
-            color: #333;
+            color: #5d4e37;
             margin-bottom: 30px;
             text-align: center;
         }
@@ -391,14 +394,14 @@
         .about-section h3 {
             font-size: 24px;
             font-weight: 600;
-            color: #e91e63;
+            color: #a0845c;
             margin: 30px 0 15px 0;
         }
         
         .about-section p {
             font-size: 16px;
             line-height: 1.8;
-            color: #555;
+            color: #6d5a42;
             margin-bottom: 20px;
         }
         
@@ -412,8 +415,8 @@
         .feature-item {
             text-align: center;
             padding: 30px 20px;
-            background: #f8f9fa;
-            border-radius: 10px;
+            background: #f5f0ea;
+            border-radius: 15px;
         }
         
         .feature-icon {
@@ -425,22 +428,22 @@
         .feature-title {
             font-size: 18px;
             font-weight: 600;
-            color: #333;
+            color: #5d4e37;
             margin-bottom: 10px;
         }
         
         .feature-desc {
             font-size: 14px;
-            color: #666;
+            color: #8b6d53;
             line-height: 1.6;
         }
         
         /* Social Section */
         .social-section {
-            background: white;
+            background: #fff9f5;
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(139, 109, 83, 0.1);
             margin: 40px 0;
             text-align: center;
         }
@@ -457,39 +460,39 @@
             align-items: center;
             gap: 10px;
             padding: 15px 25px;
-            background: #f8f9fa;
-            color: #333;
+            background: #f5f0ea;
+            color: #5d4e37;
             text-decoration: none;
             border-radius: 50px;
             font-weight: 500;
             transition: all 0.3s ease;
-            border: 1px solid #dee2e6;
+            border: 1px solid #e8ddd4;
         }
         
         .social-link:hover {
-            background: #e91e63;
-            color: white;
-            border-color: #e91e63;
+            background: #a0845c;
+            color: #fff9f5;
+            border-color: #a0845c;
             transform: translateY(-2px);
         }
         
         /* Success Message */
         .success-message {
-            background: #d4edda;
-            color: #155724;
+            background: #f0f4e8;
+            color: #4a5c3a;
             padding: 20px;
-            border-radius: 5px;
+            border-radius: 10px;
             margin: 20px 0;
             text-align: center;
             font-weight: 500;
             display: none;
-            border: 1px solid #c3e6cb;
+            border: 1px solid #d4d9c7;
         }
         
         /* Footer */
         footer {
-            background: #212529;
-            color: #fff;
+            background: #5d4e37;
+            color: #f5f0ea;
             padding: 50px 0 30px;
             margin-top: 80px;
         }
@@ -504,26 +507,26 @@
             font-size: 18px;
             font-weight: 600;
             margin-bottom: 20px;
-            color: #e91e63;
+            color: #d4c4a8;
         }
         
         .footer-section p,
         .footer-section a {
-            color: #adb5bd;
+            color: #b8a082;
             text-decoration: none;
             line-height: 1.6;
         }
         
         .footer-section a:hover {
-            color: #fff;
+            color: #f5f0ea;
         }
         
         .footer-bottom {
-            border-top: 1px solid #495057;
+            border-top: 1px solid #8b6d53;
             margin-top: 40px;
             padding-top: 20px;
             text-align: center;
-            color: #6c757d;
+            color: #9a8875;
         }
         
         /* Responsive */
@@ -819,7 +822,7 @@
             <div class="about-section">
                 <div class="about-content">
                     <h2>關於 LuluChen Shop</h2>
-                    <p>LuluChen Shop 成立於2024年，專門為台灣的娃娃愛好者提供最優質的日韓娃娃代購服務。我們深知每一個娃娃對收藏者的意義，因此用最細心的態度處理每一筆訂單。</p>
+                    <p>LuluChen Shop 成立於2025年，專門為台灣的娃娃愛好者提供最優質的日韓娃娃代購服務。我們深知每一個娃娃對收藏者的意義，因此用最細心的態度處理每一筆訂單。</p>
                     
                     <div class="features-grid">
                         <div class="feature-item">
@@ -855,22 +858,18 @@
                     <p><strong>5.</strong> 收到商品後歡迎給我們回饋！</p>
                     
                     <h3>聯絡方式</h3>
-                    <p><strong>Instagram：</strong> @luluchen_shop (最快回覆)</p>
-                    <p><strong>LINE：</strong> @luluchen326</p>
-                    <p><strong>Email：</strong> luluchen326@gmail.com</p>
+                    <p><strong>Instagram：</strong> @arceus_fcy (最快回覆)</p>
+                    <p><strong>Email：</strong> luluchen930326@gmail.com</p>
                 </div>
             </div>
             
             <div class="social-section">
                 <h2 style="color: #333; margin-bottom: 20px;">🌸 關注我們獲得最新資訊</h2>
                 <div class="social-links">
-                    <a href="https://instagram.com/luluchen_shop" class="social-link" target="_blank">
+                    <a href="https://www.instagram.com/arceus_fcy?igsh=MXh2a3V4ZTJxcWxtMw%3D%3D&utm_source=qr" class="social-link" target="_blank">
                         📷 Instagram
                     </a>
-                    <a href="https://line.me/luluchen326" class="social-link" target="_blank">
-                        💬 LINE客服
-                    </a>
-                    <a href="mailto:luluchen326@gmail.com" class="social-link">
+                    <a href="mailto:luluchen930326@gmail.com" class="social-link">
                         📧 Email
                     </a>
                 </div>
@@ -905,9 +904,8 @@
                 
                 <div class="footer-section">
                     <h3>聯絡我們</h3>
-                    <p>📧 Gmail: luluchen930326@gmail.com</p>
-                    <p>📷 Instragram:@arceus_fcy</p>
-                    <p>💬 LINE: @lulu930326</p>
+                    <p>📧 luluchen930326@gmail.com</p>
+                    <p>📷 @arceus_fcy</p>
                     <p>🕐 服務時間: 10:00-19:00</p>
                 </div>
             </div>
@@ -1011,9 +1009,9 @@ ${orderData.notes || '無'}
             const githubIssueUrl = `https://github.com/${githubUsername}/${repoName}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}`;
             
             // Method 2: Fallback to mailto
-            const emailSubject = `DollLife新訂單通知 - ${orderData.orderNumber}`;
+            const emailSubject = `LuluChen Shop新訂單通知 - ${orderData.orderNumber}`;
             const emailBody = `
-DollLife 娃娃代購新訂單通知
+LuluChen Shop 娃娃代購新訂單通知
 
 =================
 訂單資訊
@@ -1044,7 +1042,7 @@ ${orderData.notes || '無'}
             `.trim();
             
             // Create mailto link (replace with your actual email)
-            const mailtoLink = `mailto:luluchen326@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+            const mailtoLink = `mailto:luluchen930326@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
             
             // Show options to user
             const userChoice = confirm('選擇接收訂單的方式：\n\n✅ 確定 = 使用 GitHub Issue（推薦）\n❌ 取消 = 使用 Email 客戶端\n\nGitHub Issue 方式完全免費且無限制！');
